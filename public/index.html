@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Personal | Siswa RPL SMK TJP Tuban</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Hubungkan ke CSS Eksternal (LKPD BAB 4) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- ==================== LKPD BAB 5 & 6: NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">⚡ Portofolio RPL</a>
+            <ul class="nav-menu">
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#profil" class="nav-link">Tentang</a></li>
+                <li><a href="#proyek" class="nav-link">Proyek</a></li>
+                <li><a href="#riwayat" class="nav-link">Riwayat</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== LKPD BAB 6: HERO BANNER & ANIMASI ==================== -->
+    <header class="hero" id="beranda">
+        <div class="hero-content">
+            <span class="hero-badge">Siswa Rekayasa Perangkat Lunak &bull; SMK TJP Tuban</span>
+            <h1>Halo, Saya <span class="highlight-text">Naia Febia</span></h1>
+            <p>Pengembang Web pemula yang berfokus pada pembuatan antarmuka modern, responsif, serta berstandar semantik HTML5 & CSS3.</p>
+            <div class="hero-buttons">
+                <a href="#proyek" class="btn btn-primary">Lihat Portofolio</a>
+                <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== LKPD BAB 1, 2, & 3: PROFIL & VIDEO ==================== -->
+        <section id="profil" class="section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Tentang Perkenalan Diri</h2>
+                    <p>Mengenal lebih dekat latar belakang keahlian saya di bidang RPL</p>
+                </div>
+                <div class="grid-2col">
+                    <div class="col-teks">
+                        <h3>Disiplin, Kreatif, dan Solutif</h3>
+                        <p>Saya adalah peserta didik kelas X Rekayasa Perangkat Lunak di <strong>SMK TJP Tuban</strong>. Memiliki ketertarikan mendalam pada teknologi web frontend, pemrograman dasar, serta desain antarmuka pengguna (UI/UX).</p>
+                        <p>Melalui kompetensi keahlian RPL, saya terus mengasah kemampuan menulis kode HTML5 yang semantik, styling terstruktur dengan CSS3, serta tata letak responsif menggunakan Flexbox.</p>
+                    </div>
+                    <div class="col-media">
+                        <!-- LKPD BAB 3: Sematan Video HTML5 -->
+                        <h4>Video Perkenalan Diri</h4>
+                        <iframe width="590" height="365" src="https://www.youtube.com/embed/DRQehxWMUH4" 
+                        title="Perkenalan dengan animasi AI" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== LKPD BAB 5 & 6: SHOWCASE PROYEK (FLEXBOX CARDS) ==================== -->
+        <section id="proyek" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Portofolio Proyek Keahlian</h2>
+                    <p>Beberapa karya web awal yang telah saya kembangkan</p>
+                </div>
+                <div class="card-grid">
+                    <!-- Kartu 1 -->
+                    <div class="card">
+                        <div class="card-img-top bg-gradient-1">💻</div>
+                        <div class="card-body">
+                            <span class="card-badge">HTML & CSS</span>
+                            <h3>Landing Page Sekolah</h3>
+                            <p>Website profil instansi pendidikan dengan layout responsif menggunakan Flexbox dan styling warna modern.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-card">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Kartu 2 -->
+                    <div class="card">
+                        <div class="card-img-top bg-gradient-2">📋</div>
+                        <div class="card-body">
+                            <span class="card-badge">Formulir Interaktif</span>
+                            <h3>Form Pendaftaran Siswa</h3>
+                            <p>Formulir online lengkap dengan validasi input, elemen dropdown, radio button, serta teks area multi-baris.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-card">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Kartu 3 -->
+                    <div class="card">
+                        <div class="card-img-top bg-gradient-3">📊</div>
+                        <div class="card-body">
+                            <span class="card-badge">Struktur Data</span>
+                            <h3>Tabel Nilai Akademik</h3>
+                            <p>Penyajikan data kompleks menggunakan elemen tabel HTML terstruktur lengkap dengan atribut colspan dan rowspan.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-card">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== LKPD BAB 1 & 2: TABEL RIWAYAT & SERTIFIKASI ==================== -->
+        <section id="riwayat" class="section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Riwayat Pendidikan & Sertifikasi</h2>
+                    <p>Rekam jejak akademis dan pencapaian kompetensi keahlian</p>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tahun</th>
+                                <th>Jenjang / Kegiatan</th>
+                                <th>Institusi / Penyelenggara</th>
+                                <th>Keterangan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2026 - Sekarang</td>
+                                <td>Kelas X Rekayasa Perangkat Lunak</td>
+                                <td>SMK TJP Tuban</td>
+                                <td>Aktif mempelajari Pemrograman Web Dasar</td>
+                            </tr>
+                            <tr>
+                                <td>2026</td>
+                                <td>Sertifikat Dasar HTML & CSS</td>
+                                <td>Workshop IT Internal Sekolah</td>
+                                <td>Predikat: Sangat Memuaskan</td>
+                            </tr>
+                            <tr>
+                                <td>2023 - 2026</td>
+                                <td>Sekolah Menengah Pertama</td>
+                                <td>SMP Negeri 1 Tuban</td>
+                                <td>Lulus dengan predikat baik</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== LKPD BAB 3: FORMULIR KONTAK & MAPS ==================== -->
+        <section id="kontak" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Kirim Pesan Kontak</h2>
+                    <p>Hubungi saya untuk diskusi project atau kerja sama lainnya</p>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <!-- LKPD BAB 3: Form dengan Method POST dan Validasi -->
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <legend>Formulir Pesan</legend>
+                            
+                            <label for="nama">Nama Lengkap: *</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+                            <label for="email">Alamat Email: *</label>
+                            <input type="email" id="email" name="email" placeholder="contoh@domain.com" required>
+
+                            <label for="telp">Nomor WhatsApp / HP:</label>
+                            <input type="tel" id="telp" name="telp" placeholder="08xxxxxxxxxx">
+
+                            <label for="kategori">Keperluan Pesan:</label>
+                            <select id="kategori" name="kategori">
+                                <option value="kolaborasi">Kolaborasi Proyek</option>
+                                <option value="pertanyaan">Pertanyaan / Diskusi</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+
+                            <label for="pesan">Pesan Anda: *</label>
+                            <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan atau pertanyaan di sini..." required></textarea>
+
+                            <button type="submit" class="btn-submit">Kirim Pesan Sekarang</button>
+                        </fieldset>
+                    </form>
+
+                    <!-- LKPD BAB 3: Sematan Peta Google Maps via Iframe -->
+                    <div class="map-wrapper">
+                        <h4>Lokasi Sekolah Kami</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.016!2d111.9071!3d-6.8986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTMnMzUuNiJTIDExMcKwNTQnMjUuNiJF!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" title="Lokasi SMK TJP Tuban"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER TERPADU ==================== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Naia Febia &mdash; Siswa X RPL SMK TJP Tuban.</p>
+            <p>Mengintegrasikan Kompetensi Pemrograman Web Dasar LKPD BAB 1 sampai BAB 6.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
